@@ -9,13 +9,11 @@ layout: default
     {{ content }}
   </div>
 
+  <hr>
+
   <div class="date">
     Дата публикации: {{ page.date | date: "%d.%m.%Y" }}
   </div>
-  
-  
-
-<hr>
 
   {% include disqus.html %}
 </article>
