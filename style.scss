@@ -154,6 +154,10 @@ img {
   margin-bottom: 50px;
 }
 
+.wrapper-masthead--post {
+    margin-bottom: 0;
+}
+
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
@@ -291,6 +295,15 @@ footer {
 .thumb--right{
   float: right;
   padding: 0 0 10px 20px;
+}
+
+.big-thumb img {
+    width: 100%;
+}
+
+.post h1 {
+    line-height: 1.1;
+    margin: 15px 0 15px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

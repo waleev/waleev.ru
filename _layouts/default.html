@@ -46,7 +46,7 @@
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/47159718" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
-    <div class="wrapper-masthead">
+    <div class="wrapper-masthead {% if page.thumb %}wrapper-masthead--post{% endif %}">
       <div class="container">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
@@ -63,6 +63,12 @@
         </header>
       </div>
     </div>
+
+    {% if page.thumb %}
+    <div class="big-thumb">
+        <img src="{{ page.thumb }}" alt="{{page.title}}">
+    </div>
+    {% endif %}
 
     <div id="main" role="main" class="container">
       {{ content }}
