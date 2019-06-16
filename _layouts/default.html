@@ -67,6 +67,9 @@
     {% if page.thumb %}
     <div class="big-thumb">
         <img src="{{ page.thumb }}" alt="{{page.title}}">
+        {% if page.thumb_caption %}
+        <p>{{ page.thumb_caption }}</p>
+        {% endif %}
     </div>
     {% endif %}
 
