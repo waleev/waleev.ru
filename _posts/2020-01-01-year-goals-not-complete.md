@@ -2,6 +2,7 @@
 title: Почему мы не достигаем целей, поставленных на год?
 layout: post
 thumb: /images/year-goals-not-complete/thumb.jpg
+thumb_small: /images/year-goals-not-complete/thumb_small.jpg
 thumb_caption: Photo by Isaac Smith on Unsplash
 ---
 
