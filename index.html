@@ -6,8 +6,12 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
 
-      {% if post.thumb %}
+      {% if post.thumb_small %}
       <a href="{{ site.baseurl }}{{ post.url }}">
+        <img src="{{ post.thumb_small }}" alt="{{ post.title }}">
+      </a>
+	  {% elsif post.thumb %}
+	  <a href="{{ site.baseurl }}{{ post.url }}">
         <img src="{{ post.thumb }}" alt="{{ post.title }}">
       </a>
       {% endif %}
