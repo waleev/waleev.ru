@@ -19,7 +19,12 @@
     
     {%if page.tags %}
 	<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
-	{%endif %}
+	{% endif %}
+	
+	{%if page.date %}
+	<meta name="article:published_time" content="{{ page.date }}">
+	{% endif %}
+	
     <meta name="google-site-verification" content="9Xfqmwk4ltvM6MVPDOROgmdcnc97WyNj29f4l4Fk0io" />
     
     {% if site.tags != "" %}
