@@ -20,7 +20,7 @@ layout: default
   <hr>
 
   <div class="date">
-    Дата публикации: {{ page.date | date: "%d.%m.%Y" }}
+    Дата публикации: <span>{{ page.date | date: "%d.%m.%Y" }}</span>
   </div>
 
   {% include disqus.html %}
