@@ -4,7 +4,7 @@ title: Об авторе
 permalink: /about/
 ---
 
-Меня зовут Денис Валеев. Пишу код на PHP и люблю есть шаурму.
+Меня зовут Денис Валеев. Увлекаюсь веб-разработкой и люблю есть шаурму.
 
 ### Образование
 
@@ -13,4 +13,4 @@ permalink: /about/
 
 ### Контакты
 
-[webdinislam@gmail.com](mailto:webdinislam@gmail.com)
+[denis@waleev.ru](mailto:denis@waleev.ru)
